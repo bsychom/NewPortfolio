@@ -145,7 +145,7 @@ export default function Home() {
 
     </section>
     <section id='about ' className=''>
-        <div className='container py-20 flex flex-col-reverse md:flex-row gap-2 items-center'>
+        <div className='container py-20 pb-44 flex flex-col-reverse md:flex-row gap-2 items-center'>
             <div className='md:w-1/2 ' data-aos="fade-up" data-aos-duration="2000" >
             <Lottie className='p-20' animationData={about} />
             </div>
