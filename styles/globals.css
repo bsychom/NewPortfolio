@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+.links{
+  @apply hover:text-lst ease-in duration-200;
+}
+.box{
+  position: relative;
+  margin: 10% auto 50;
+  width: 50%;
+  height: 400px;
+  background:  linear-gradient(0deg, black, rgb(44, 44, 44));
+  z-index: 1;
+}
+j.glow::before, .glow::after{
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #e6fb04 , #ff6600,#00ff55, #00ffff, #ff00ff,#ff0099, #6e0dd0, #ff3300, #099fff);
+  background-size: 400%;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  z-index: 0;
+}
