@@ -17,8 +17,8 @@ const Home = () =>{
                 <div className='space-y-8  z-20' data-aos="fade-right" data-aos-duration="2000">
                     <div className=''>
                         <h1 className='text-3xl font-extrabold capitalize font-mono leading-relaxed text-white '>Hi there, </h1>
-                        <p className='text-2xl font-extrabold capitalize leading-relaxed text-white  '>I'm mohamed haddaoui </p>
-                        <p className='text-2xl font-extrabold capitalize leading-relaxed text-white'>And I'm</p>
+                        <p className='text-2xl font-extrabold capitalize leading-relaxed text-white  '>I&apos;m mohamed haddaoui </p>
+                        <p className='text-2xl font-extrabold capitalize leading-relaxed text-white'>And I&apos;m</p>
                         <MessageWriter />
                     </div>
                     <div className='flex flex-col xl:flex-row  gap-6 text-white'>
