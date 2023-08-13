@@ -8,13 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
       colors:{
-        'bg' : '#13005A',
+        'bg' : '#1D0677',
         'sec' : '#00337C',
         'thr' : '#1C82AD',
         'lst' : '#03C988',
         'bgg' : '#150554',
+        'border': '#0c0230'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -28,9 +28,8 @@ const config: Config = {
           'md':'50px',
         }
       },
-
     },
   },
-  plugins: [require("daisyui"),require('tailwindcss-animated')],
+  plugins: [require("daisyui")],
 }
 export default config
