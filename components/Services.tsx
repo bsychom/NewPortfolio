@@ -15,17 +15,17 @@ const Services = () =>{
     const [service3, setService3] = useState(false);
     return (
         <section id="services" className=" bg-bgg">
-            <div className="container py-20">
+            <div className="container py-40">
                 <div className="text-center m-auto mb-20 md:w-1/2 ">
                     <p className={`capitalize text-lg  text-white  ${inter.className}`} data-aos="zoom-in-right" data-aos-duration="2000">what i will do for you</p>
-                 <h1 className='font-extrabold text-3xl capitalize text-lst' data-aos="zoom-in-left" data-aos-duration="2000">our services</h1>
+                 <h1 className='font-extrabold  text-3xl capitalize text-lst' data-aos="zoom-in-left" data-aos-duration="2000">our services</h1>
                         
                  
 
                 </div>
                 <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                     <div data-aos="flip-right" data-aos-duration="2000" className={`card relative h-auto w-auto ${service2 === true || service3 === true ? 'h-fit' : ''}`}> 
-                    <div className="front px-7 py-11 rounded-2xl   border-4 border-solid bg-black  border-lst h-full w-full shadow-2xl shadow-lst">
+                    <div className="front hover:scale-105 duration-500 px-7 py-11 rounded-2xl   border-4 border-solid bg-black  border-lst h-full w-full shadow-2xl shadow-lst">
                         <div className="space-y-6 h-[90%]">
 
                       <div className="w-full  flex justify-center  ">
@@ -70,7 +70,7 @@ const Services = () =>{
                         
                     <div data-aos="flip-down" data-aos-duration="2000" className={`card relative h-auto w-auto ${service1 === true || service3 === true ? 'h-fit' : ''}`}>
 
-                        <div className="front px-7  py-11 rounded-2xl bg-black  border-4 border-solid border-lst h-full w-full shadow-2xl shadow-lst">
+                        <div className="front hover:scale-105 duration-500 px-7  py-11 rounded-2xl bg-black  border-4 border-solid border-lst h-full w-full shadow-2xl shadow-lst">
                         
                       <div className="space-y-6 h-[90%]"> 
                       <div className="w-full  flex justify-center  ">
@@ -121,7 +121,7 @@ const Services = () =>{
                     </div>
                     <div data-aos="flip-left" data-aos-duration="2000" className={`card relative h-auto w-auto ${service1 === true || service2 === true ? 'h-fit' : ''}`}>
 
-                        <div className="front px-7  py-11 rounded-2xl bg-black  border-4 border-solid border-lst h-full w-full shadow-2xl shadow-lst">
+                        <div className="front hover:scale-105 duration-500 px-7  py-11 rounded-2xl bg-black  border-4 border-solid border-lst h-full w-full shadow-2xl shadow-lst">
                         
                       <div className="space-y-6 h-[90%]"> 
                       <div className="w-full  flex justify-center  ">

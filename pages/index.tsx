@@ -5,7 +5,7 @@ import Home from '@/components/Home'
 import About from '@/components/About'
 import Services from '@/components/Services'
 import useSmoothScroll from '@/components/useSmoothScroll'
-import Skills from '@/components/Skills'
+import Skills from '@/components/Skiils'
 
 
 const inter = Inter({ subsets: ['latin'] })
