@@ -7,7 +7,7 @@ const About = () =>{
     const [read, setRead] = useState(false);
     return (
         <section id='about' className='bg-bg'>
-        <div className='container py-20 pb-44 flex flex-col-reverse md:flex-row gap-2 items-center'>
+        <div className='container py-20 pb-44 flex flex-col-reverse md:flex-row gap-2 items-center overflow-x-hidden'>
             <div className='md:w-1/2 ' data-aos="fade-up" data-aos-duration="2000" >
             <Lottie className='p-20' animationData={about} />
             </div>

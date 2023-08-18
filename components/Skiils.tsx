@@ -6,7 +6,7 @@ import Progress from "./Progress";
 const Skills = () =>{
     return (
         <section id="skills" className="bg-bg">
-            <div className="py-40  container">
+            <div className="py-40  container overflow-x-hidden">
                 <div className="text-center space-y-4">
                     <div data-aos="fade-left" data-aos-duration="2000">
                         <p className=" uppercase text-lg">technical and professional</p>
