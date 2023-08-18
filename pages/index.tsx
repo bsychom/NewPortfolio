@@ -6,6 +6,7 @@ import About from '@/components/About'
 import Services from '@/components/Services'
 import useSmoothScroll from '@/components/useSmoothScroll'
 import Skills from '@/components/Skiils'
+import Contact from '@/components/Contact'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,6 +22,7 @@ export default function Index() {
         <About />
         <Services />
         <Skills />
+        <Contact />
     
     </main>
   )

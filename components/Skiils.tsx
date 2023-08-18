@@ -29,6 +29,7 @@ const Skills = () =>{
                                 <Progress skill="Docker" per={50} />
                                 <Progress skill="Redux Toolkit" per={72} />
                                 <Progress skill="TailwindCSS" per={60} />
+                                <Progress skill="Rest Apis" per={80} />
                             </div>
                         </div>
                         
@@ -42,13 +43,13 @@ const Skills = () =>{
                             <div className="bg- w-[70%] mx-auto s space-y-12">
                                 
                             <div className="flex gap-10">
-                                <PerSkills text="Creativity"  per={90}/>
-                                 <PerSkills text="Creativity"  per={90}/>
+                                <PerSkills text="Team Work"  per={80}/>
+                                 <PerSkills text="Creativity"  per={80}/>
 
 
                                 </div> <div className="flex gap-10">
-                                <PerSkills text="Creativity"  per={90}/>
-                                 <PerSkills text="Creativity"  per={90}/>
+                                 <PerSkills text="communication"  per={60}/>
+                                <PerSkills text="Project Management"  per={90}/>
 
 
                                 </div>
