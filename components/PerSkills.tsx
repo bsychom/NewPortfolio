@@ -26,11 +26,11 @@ const PerSkills = ({per, text} : {per : number, text : string}) =>{
     return (
         <div className="flex flex-col justify-center space-y-3 items-center  ">
         <div className='w-52 h-52    relative flex justify-center  items-center  ' >
-          <div className="text-2xl font-bold font-mono">{per}%</div>
+          <div className="text-xl font-bold font-mono">{per}%</div>
             <BgPer/>
             <Percentage color='color' per={per}/>
         </div>
-        <div className="text-xl font-extrabold tracking-widest capitalize">{text}</div>
+        <div className="text-lg font-extrabold tracking-widest capitalize">{text}</div>
         </div>
     )
 }

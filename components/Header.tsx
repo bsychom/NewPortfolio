@@ -6,11 +6,11 @@ const Header = () =>{
     return (
         
                     <nav className=" container mx-auto flex justify-between items-center  " >
-                    <div data-aos="fade-right" data-aos-duration="1000" className="w-20 py-5 text-color-secondary font-extrabold  text-3xl z-20  ">
+                    <div data-aos="fade-right" data-aos-duration="1000" className="w-20 py-3 text-color-secondary font-extrabold  text-2xl z-20  ">
                         <Link href="/"><span className="text-lst">M</span>haddaou.</Link>
                     </div>
                     <div >
-                        <ul className={`hidden lg:flex items-center space-x-6 font-bold  text-lg`}>
+                        <ul className={`hidden lg:flex items-center space-x-6 font-bold  `}>
                             <li data-aos="fade-up" data-aos-duration="500"> <Link href="#" className="links shadow-2xl">  Home </Link></li>
                             <li data-aos="fade-up" data-aos-duration="1000">
         <Link href="#about" className="links shadow-2xl">About</Link>

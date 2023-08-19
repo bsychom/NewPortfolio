@@ -15,9 +15,9 @@ const Services = () =>{
     const [service3, setService3] = useState(false);
     return (
         <section id="services" className=" bg-bgg">
-            <div className="container py-40">
-                <div className="text-center m-auto mb-20 md:w-1/2 ">
-                    <p className={`capitalize text-lg  text-white  ${inter.className}`} data-aos="zoom-in-right" data-aos-duration="2000">what i will do for you</p>
+            <div className="container py-20">
+                <div className="text-center m-auto mb-10 md:w-1/2 ">
+                    <p className={`capitalize text-sm  text-white  ${inter.className}`} data-aos="zoom-in-right" data-aos-duration="2000">what i will do for you</p>
                  <h1 className='font-extrabold  text-3xl capitalize text-lst' data-aos="zoom-in-left" data-aos-duration="2000">our services</h1>
                         
                  
@@ -57,11 +57,11 @@ const Services = () =>{
                         <div className="flex justify-center  h-[10%] items-end mt-5 ">
                             <button onClick={() => setService1(true)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service1 == true ? 'hidden' : 'block'}  `}>
                                 <span className="bg-thr absolute inset-0 w-full transition-all duration-1000 group-hover:w-0"></span>
-                                <span className="relative z-10">Read More !</span>
+                                <span className="relative z-10 text-sm">Read More !</span>
                             </button>
                             <button onClick={() => setService1(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service1 == false ? 'hidden' : 'block'}  `}>
                                 <span className='absolute inset-0 bg-thr w-0 transition-all duration-1000 group-hover:w-full group-hover:text-black'></span>
-                                <span className='relative z-10'>Read Less !</span>
+                                <span className='relative z-10 text-sm'>Read Less !</span>
                             </button>
                         </div>
                     </div>
@@ -105,11 +105,11 @@ const Services = () =>{
                         <div className="flex justify-center items-end h-[10%] mt-5">
                         <button onClick={() => setService2(true)} className={`font-bold  border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service2 == true ? 'hidden' : 'block'}  `}>
                              <span className="bg-thr absolute inset-0 w-full transition-all duration-1000 group-hover:w-0"></span>
-                             <span className="relative z-10">Read More !</span>
+                             <span className="relative z-10 text-sm">Read More !</span>
                          </button>
                          <button onClick={() => setService2(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service2 == false ? 'hidden' : 'block'}  `}>
                              <span className='absolute inset-0 bg-thr w-0 transition-all duration-1000 group-hover:w-full group-hover:text-black'></span>
-                             <span className='relative z-10'>Read Less !</span>
+                             <span className='text-sm relative z-10'>Read Less !</span>
                          </button>
                         </div>            
                          
@@ -154,11 +154,11 @@ const Services = () =>{
                         <div className="flex justify-center items-end h-[10%] mt-5">
                             <button onClick={() => setService3(true)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service3 == true ? 'hidden' : 'block'}  `}>
                                 <span className="bg-thr absolute inset-0 w-full transition-all duration-1000 group-hover:w-0"></span>
-                                <span className="relative z-10">Read More !</span>
+                                <span className="relative z-10 text-sm">Read More !</span>
                             </button>
                             <button onClick={() => setService3(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service3 == false ? 'hidden' : 'block'}  `}>
                                 <span className='absolute inset-0 bg-thr w-0 transition-all duration-1000 group-hover:w-full group-hover:text-black'></span>
-                                <span className='relative z-10'>Read Less !</span>
+                                <span className='relative z-10 text-sm'>Read Less !</span>
                             </button>
                         </div>            
                          

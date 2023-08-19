@@ -14,8 +14,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Index() {
   // useSmoothScroll();
   return (
-    <main className='text-white over-f'>
-      <header className={`border-b-4 border-lst sticky py-5 bg-bg   top-0   z-50 `}>
+    <main className='text-white'>
+      <header className={`border-b-4 border-lst sticky  bg-bg   top-0   z-50 `}>
         <Header />
       </header>
         <Home />
