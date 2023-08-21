@@ -38,8 +38,8 @@ const Services = () =>{
                         </div>
                          <h1 className='text-xl text-center font-extrabold leading-relaxed capitalize'>software Engineer</h1>
                          <div className='space-y-4'>
-                         <p className='text- text-lg leading-relaxed font-bold text-cyan-300 px-20 md:px-0 '>I can create powerful solutions for you using C and C++. With expertise in software engineering and a strong background in these languages, I&apos;m capable of delivering efficient and effective results. Here&apos;s what I can offer:</p>                
-                         <div className={`text-lg leading-relaxed font-bold px-20 md:px-0  text-cyan-300 space-y-2 ${service1 === false ? 'hidden' : 'block'}`}>
+                         <p className='text- text-lg leading-relaxed font-bold text-cyan-300  '>I can create powerful solutions for you using C and C++. With expertise in software engineering and a strong background in these languages, I&apos;m capable of delivering efficient and effective results. Here&apos;s what I can offer:</p>                
+                         <div className={`text-lg leading-relaxed font-bold   text-cyan-300 space-y-2 ${service1 === false ? 'hidden' : 'block'}`}>
                              <p>- Proficient in C and C++ programming languages.</p>
                              <p>- Strong command of object-oriented programming (OOP) principles.</p>
                              <p>- Experienced in multithreading, concurrency, and parallel programming</p>
@@ -84,12 +84,12 @@ const Services = () =>{
                      <h1 className='text-xl text-center font-extrabold leading-relaxed capitalize'>Front-end</h1>
                      <div className='space-y-4'>
                          <div >
-                         <p className=' text-lg leading-relaxed px-20 md:px-0 font-bold text-cyan-300 '>My expertise lies in crafting dynamic and responsive web experiences using the power of Next.js and React.js. As a front-end developer, I&apos;m committed to producing captivating user interfaces and frictionless interactions .  
+                         <p className=' text-lg leading-relaxed  font-bold text-cyan-300 '>My expertise lies in crafting dynamic and responsive web experiences using the power of Next.js and React.js. As a front-end developer, I&apos;m committed to producing captivating user interfaces and frictionless interactions .  
                                  <span className={`${service2 === true ? '' : 'hidden'}`}>Moreover, I&apos;m well-versed in harnessing REST APIs to infuse web applications with data-driven capabilities. Here&apos;s my value proposition : </span>
                                 
                                  </p>
                          </div>
-                         <div className={`text-lg leading-relaxed font-bold px-20 md:px-0  text-cyan-300 space-y-2 ${service2 === true ? 'block' : 'hidden'}`}>
+                         <div className={`text-lg leading-relaxed font-bold   text-cyan-300 space-y-2 ${service2 === true ? 'block' : 'hidden'}`}>
                          <p>- Proficient in leveraging Next.js and React.js to build sophisticated web applications.</p>
                                  <p>- Adept at wielding front-end technologies including HTML, CSS, and JavaScript.</p>
                                  <p>- Familiarity with advanced state management techniques using React hooks and Redux Toolkit.</p>
@@ -135,12 +135,12 @@ const Services = () =>{
                      <h1 className='text-xl text-center font-extrabold leading-relaxed capitalize'>Bonus</h1>
                      <div className='space-y-4'>
                          <div >
-                             <p className=' text-lg leading-relaxed font-bold text-cyan-300 px-20 md:px-0 '>
+                             <p className=' text-lg leading-relaxed font-bold text-cyan-300  '>
                              I have a proven ability to adapt and learn quickly, allowing me to tackle diverse challenges and projects across various domains. With my background in software engineering and proficiency in programming, I can confidently 
                              <span className={`${service3 === true ? '' : 'hidden'}`}> approach any project , regardless of its complexity. Here&apos;s what sets me apart:</span>
                              </p> 
                          </div>
-                         <div className={`text-lg leading-relaxed font-bold px-20 md:px-0  text-cyan-300 space-y-2 ${service3 === true ? 'block' : 'hidden'}`}>
+                         <div className={`text-lg leading-relaxed font-bold   text-cyan-300 space-y-2 ${service3 === true ? 'block' : 'hidden'}`}>
                              <p>- Rapid learner with a passion for exploring new technologies and tools.</p>
                              <p>- Proven track record of quickly mastering new programming languages and concepts.</p>
                              <p>- Enthusiastic about applying acquired knowledge to practical projects.</p>
