@@ -36,7 +36,7 @@ const Skills = () =>{
                         
                         
                     </div>
-                    <div   className="w-full lg:w-1/2 text-center  flex flex-col items-center  capitalize font-extrabold text-2xl space-y-20 ">
+                    <div  data-aos="zoom-in" data-aos-duration="3000" className="w-full lg:w-1/2 text-center  flex flex-col items-center  capitalize font-extrabold text-2xl space-y-20 ">
                         <div>
                         <p className="">professional skillls</p>
                         </div>
@@ -83,4 +83,3 @@ const Skills = () =>{
 }
 
 export default Skills;
-// data-aos="zoom-in" data-aos-duration="3000"
