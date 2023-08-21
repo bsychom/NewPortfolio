@@ -10,9 +10,9 @@ import mhaddaou from '../assets/image/P7050744-removebg-preview.png'
 
 const Home = () =>{
     return (
-        <section  className="bg-bg">
+        <section  className="bg-bg overflow-hidden">
         <div className='container  pt-2 pb-20 flex flex-col md:flex-row text-green-400 items-center '>
-            <div className='md:w-1/2  w-full h-full border-l-2 border-b-2 rounded-s-xl pl-10 tracking-widest pt-10 pb-5 mt-0 md:mt-16 relative' >
+            <div className='md:w-1/2  w-full h-full border-l-2 border-b-2 rounded-s-xl pl-10 tracking-widest pt-10  pb-5 mt-0 md:mt-16 relative' >
                 <div className=' w-60 h-60 bg-thr absolute -top-28 -left-28 rounded-full blur-2xl z-0'></div>
                 <div className='space-y-8  z-20' data-aos="fade-right" data-aos-duration="2000">
                     <div className=''>

@@ -18,6 +18,7 @@ export default function Index() {
       <header className={`border-b-4 border-lst sticky  bg-bg   top-0   z-50 `}>
         <Header />
       </header>
+      
         <Home />
         <About />
         <Services />

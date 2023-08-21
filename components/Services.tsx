@@ -14,7 +14,7 @@ const Services = () =>{
     const [service2, setService2] = useState(false);
     const [service3, setService3] = useState(false);
     return (
-        <section id="services" className=" bg-bgg">
+        <section id="services" className=" bg-bgg overflow-hidden">
             <div className="container py-20">
                 <div className="text-center m-auto mb-10 md:w-1/2 ">
                     <p className={`capitalize text-sm  text-white  ${inter.className}`} data-aos="zoom-in-right" data-aos-duration="2000">what i will do for you</p>

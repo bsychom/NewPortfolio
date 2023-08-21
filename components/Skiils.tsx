@@ -36,21 +36,34 @@ const Skills = () =>{
                         
                         
                     </div>
-                    <div data-aos="zoom-in" data-aos-duration="3000"  className="w-full lg:w-1/2 text-center  flex flex-col items-center  capitalize font-extrabold text-2xl space-y-20 ">
+                    <div   className="w-full lg:w-1/2 text-center  flex flex-col items-center  capitalize font-extrabold text-2xl space-y-20 ">
                         <div>
                         <p className="">professional skillls</p>
                         </div>
-                        <div className="   lg:pt-10 w-[90%] space-y-10 mx-auto">
-                            <div className="bg- w-[70%] mx-auto s space-y-12">
+                        <div className=" w-full  lg:pt-10  space-y-10 ">
+                            <div className=" md:space-y-12">
                                 
-                            <div className="flex gap-10">
+                            <div className="flex w-full    md:gap-10">
+                                <div className="w-1/2">
                                 <PerSkills text="Team Work"  per={80}/>
+
+                                </div>
+                                <div className="w-1/2">
+
                                  <PerSkills text="Creativity"  per={80}/>
+                                </div>
 
 
-                                </div> <div className="flex gap-10">
+                                </div> 
+                                <div className="flex w-full    md:gap-10">
+                                <div className="w-1/2">
+
                                  <PerSkills text="communication"  per={60}/>
+                                </div>
+                                <div className="w-1/2">
+
                                 <PerSkills text="Project Management"  per={90}/>
+                                </div>
 
 
                                 </div>
@@ -70,3 +83,4 @@ const Skills = () =>{
 }
 
 export default Skills;
+// data-aos="zoom-in" data-aos-duration="3000"
