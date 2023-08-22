@@ -79,7 +79,7 @@ const CardProjects = () =>{
                         <div className='  absolute top-0 py-1 left-0 w-full h-auto'>
                             <div className='px-2 text-center h-full  '>
                             <h1 className='text-center text-white text- font-bold  underline font-serif decoration-lst underline-offset-4 decoration-4'>Inception</h1>
-                            <p className='text-start text-white pl-2 italic      pt-3'>This project from 42 school focuses on expanding your system administration knowledge through Docker. You'll create and manage Docker images in a personal virtual machine,</p>   
+                            <p className='text-start text-white pl-2 italic      pt-3'>This project from 42 school focuses on expanding your system administration knowledge through Docker. You&apos;ll create and manage Docker images in a personal virtual machine,</p>   
                              <div className='  flex justify-center  pt-3'>
                                 <Link target='_black' href="https://github.com/mhaddaou/inception-42" className='w-10 h-10  bg-slate-100 rounded-full flex items-center group justify-center hover:text-white hover:bg-lst transition-all duration-200 ease-in text-slate-800 text-xl '>
                                     <FaUpRightFromSquare className="   "/>
