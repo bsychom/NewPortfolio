@@ -17,6 +17,8 @@ const config: Config = {
         'border': '#0c0230'
       },
       backgroundImage: {
+        'hero-pattern': "url('/images/irc.jpeg')",
+        'patter' : "url('/images/pattern (1).svg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
