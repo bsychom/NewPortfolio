@@ -4,6 +4,7 @@ import {BsCodeSlash} from 'react-icons/bs'
 import {MdDeveloperMode} from 'react-icons/md'
 import {CgTranscript} from 'react-icons/cg'
 import { Inter } from 'next/font/google'
+import Link from "next/link";
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -59,10 +60,10 @@ const Services = () =>{
                                 <span className="bg-thr absolute inset-0 w-full transition-all duration-1000 group-hover:w-0"></span>
                                 <span className="relative z-10 text-sm">Read More !</span>
                             </button>
-                            <button onClick={() => setService1(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service1 == false ? 'hidden' : 'block'}  `}>
+                            <Link href="#services" onClick={() => setService1(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service1 == false ? 'hidden' : 'block'}  `}>
                                 <span className='absolute inset-0 bg-thr w-0 transition-all duration-1000 group-hover:w-full group-hover:text-black'></span>
                                 <span className='relative z-10 text-sm'>Read Less !</span>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                     
@@ -107,10 +108,10 @@ const Services = () =>{
                              <span className="bg-thr absolute inset-0 w-full transition-all duration-1000 group-hover:w-0"></span>
                              <span className="relative z-10 text-sm">Read More !</span>
                          </button>
-                         <button onClick={() => setService2(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service2 == false ? 'hidden' : 'block'}  `}>
+                         <Link href="#services" onClick={() => setService2(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service2 == false ? 'hidden' : 'block'}  `}>
                              <span className='absolute inset-0 bg-thr w-0 transition-all duration-1000 group-hover:w-full group-hover:text-black'></span>
                              <span className='text-sm relative z-10'>Read Less !</span>
-                         </button>
+                         </Link>
                         </div>            
                          
 
@@ -156,10 +157,10 @@ const Services = () =>{
                                 <span className="bg-thr absolute inset-0 w-full transition-all duration-1000 group-hover:w-0"></span>
                                 <span className="relative z-10 text-sm">Read More !</span>
                             </button>
-                            <button onClick={() => setService3(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service3 == false ? 'hidden' : 'block'}  `}>
+                            <Link href="#services" onClick={() => setService3(false)} className={`font-bold border-2 border-thr capitalize px-5 py-2 rounded-lg text- group relative overflow-hidden shadow-2xl shadow-thr ${service3 == false ? 'hidden' : 'block'}  `}>
                                 <span className='absolute inset-0 bg-thr w-0 transition-all duration-1000 group-hover:w-full group-hover:text-black'></span>
                                 <span className='relative z-10 text-sm'>Read Less !</span>
-                            </button>
+                            </Link>
                         </div>            
                          
 
