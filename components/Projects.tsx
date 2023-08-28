@@ -8,7 +8,7 @@ function Projects() {
     <section id='projects'  className="bg-bgg overflow-hidden">
         <div className='container   py-20  text-green-400 items-center '>
             <div className='w-1/2 mx-auto text-center'>
-                <h1 className='text-3xl  leading-relaxed tracking-wide font-extrabold '>Latest Project</h1>
+                <h1 data-aos="flip-left" data-aos-duration="2000" className='text-3xl  leading-relaxed tracking-wide font-extrabold '>Latest Project</h1>
             </div>
               <CardProjects/>
             

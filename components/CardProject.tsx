@@ -4,8 +4,8 @@ import {FaUpRightFromSquare} from 'react-icons/fa6'
 
 const CardProjects = () =>{
     return (
-        <div className='grid w-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-10  gap-10'>
-            <div className=' max-w-max mx-auto h-[250px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
+        <div  className='grid w-full   grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-10  gap-10'>
+            <div data-aos="zoom-in-left" data-aos-duration="2000" className=' max-w-max mx-auto h-[250px] sm:h-[270px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
                     <img className=' bg-cover  group-hover:scale-125  transition-all z-20 duration-500 group-hover:ease-in   w-full h-full ' src="/images/irc.jpeg" alt="" />
 
                     <div className='w-full -translate-y-96 opacity-0  h-full top-0 left-0 absolute z-30 group-hover:opacity-80 transition-all duration-1000 shadow-2xl shadow-lst  group-hover:translate-y-0'>
@@ -26,7 +26,7 @@ const CardProjects = () =>{
                         </div>
                     </div>
             </div>
-            <div className=' max-w-max mx-auto h-[250px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
+            <div data-aos="zoom-in" data-aos-duration="2000"  className=' max-w-max mx-auto h-[250px] sm:h-[270px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
                     <img className=' bg-cover  group-hover:scale-125  transition-all z-20 duration-500 group-hover:ease-in   w-full h-full ' src="/images/financial.jpeg" alt="" />
 
                     <div className='w-full -translate-y-96 opacity-0  h-full top-0 left-0 absolute z-30 group-hover:opacity-80 transition-all duration-1000 shadow-2xl shadow-lst  group-hover:translate-y-0'>
@@ -48,7 +48,7 @@ const CardProjects = () =>{
                         </div>
                     </div>
             </div>
-            <div className=' max-w-max mx-auto h-[250px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
+            <div data-aos="zoom-in-right" data-aos-duration="2000"  className=' max-w-max mx-auto h-[250px] sm:h-[270px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
                     <img className=' bg-cover  group-hover:scale-125  transition-all z-20 duration-500 group-hover:ease-in   w-full h-full ' src="/images/crud.png" alt="" />
 
                     <div className='w-full -translate-y-96 opacity-0  h-full top-0 left-0 absolute z-30 group-hover:opacity-80 transition-all duration-1000 shadow-2xl shadow-lst  group-hover:translate-y-0'>
@@ -70,7 +70,7 @@ const CardProjects = () =>{
                         </div>
                     </div>
             </div>
-            <div className=' max-w-max mx-auto h-[250px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
+            <div data-aos="zoom-in-left" data-aos-duration="2000"  className=' max-w-max mx-auto h-[250px] sm:h-[270px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
                     <img className=' bg-cover  group-hover:scale-125  transition-all z-20 duration-500 group-hover:ease-in   w-full h-full ' src="/images/inception.png" alt="" />
 
                     <div className='w-full -translate-y-96 opacity-0  h-full top-0 left-0 absolute z-30 group-hover:opacity-80 transition-all duration-1000 shadow-2xl shadow-lst  group-hover:translate-y-0'>
@@ -91,7 +91,7 @@ const CardProjects = () =>{
                         </div>
                     </div>
             </div>
-             <div className=' max-w-max mx-auto h-[250px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
+             <div data-aos="zoom-in" data-aos-duration="2000"  className=' max-w-max mx-auto h-[250px] sm:h-[270px] lg:h-[270px] xl:h-[250px]  bg-lst  border-4 border-lst relative group  rounded-xl cursor-pointer overflow-hidden'>
                     <img className=' bg-cover  group-hover:scale-125  transition-all z-20 duration-500 group-hover:ease-in   w-full h-full ' src="/images/transcendence.png" alt="" />
 
                     <div className='w-full -translate-y-96 opacity-0  h-full top-0 left-0 absolute z-30 group-hover:opacity-80 transition-all duration-1000 shadow-2xl shadow-lst  group-hover:translate-y-0'>

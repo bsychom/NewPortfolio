@@ -9,6 +9,9 @@ import {GrTwitter} from'react-icons/gr'
 import mhaddaou from '../assets/image/P7050744-removebg-preview.png'
 
 const Home = () =>{
+    const Hiring = () =>{
+        alert('Thank you for visiting my portfolio. I apologize for any inconvenience you may be experiencing with the button-it appears that it is currently not functioning as intended. I am actively working to resolve this issue and appreciate your patience.\nyou can reach me at the links below');
+    }
     return (
         <section  className="bg-bg overflow-hidden">
         <div className='container  pt-2 pb-20 flex flex-col md:flex-row text-green-400 items-center '>
@@ -49,7 +52,7 @@ const Home = () =>{
                         </button>
                         </div>
                         <div className='relative  font-bold text-white'>
-                        <button className='py-2 px-5 rounded-md group relative border-4 border-lst inline-block overflow-hidden shadow-2xl shadow-thr'>
+                        <button onClick={Hiring} className='py-2 px-5 rounded-md group relative border-4 border-lst inline-block overflow-hidden shadow-2xl shadow-thr'>
                             <span className='absolute inset-0 bg-lst w-0 transition-all duration-1000 group-hover:w-full group-hover:text-black'></span>
                             <span className='relative z-10'>Hire Me Now!</span>
                         </button>
