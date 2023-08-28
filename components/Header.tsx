@@ -3,6 +3,9 @@ import {RxHamburgerMenu} from 'react-icons/rx'
 
 
 const Header = () =>{
+    const click = () =>{
+       alert('Thank you for visiting my portfolio. I apologize for any inconvenience you may be experiencing with the console-it appears that it is currently not functioning as intended. I am actively working to resolve this issue and appreciate your patience')
+    }
     return (
         
                     <nav className=" container mx-auto flex justify-between items-center  " >
@@ -19,7 +22,7 @@ const Header = () =>{
                             <li data-aos="fade-up" data-aos-duration="2000"> <Link href="#skills" className="links shadow-2xl transition-transform">  Skills </Link></li>
                             <li data-aos="fade-up" data-aos-duration="2500"> <Link href="#projects" className="links shadow-2xl">  Projects </Link></li>
                             <li data-aos="fade-up" data-aos-duration="3000"> <Link href="#contact" className="links shadow-2xl">  Contact </Link></li>
-                            <li data-aos="fade-up" data-aos-duration="3000"> <Link href="#notYet" className="links transition-all duration-1000 shadow-2xl">  Console </Link></li>
+                            <li onClick={click} data-aos="fade-up" data-aos-duration="3000"> <Link href="" className="links transition-all duration-1000 shadow-2xl">  Console </Link></li>
                         </ul>
                     </div>
                     <div className="dropdown lg:hidden pr-2  dropdown-left cursor-pointer">    
@@ -31,7 +34,7 @@ const Header = () =>{
                             <li>  <Link tabIndex={0} href="#skills" className="links hover:text-black">  Skills </Link></li>
                             <li>  <Link tabIndex={0} href="#project" className="links hover:text-black">  Projects </Link></li>
                             <li>  <Link tabIndex={0} href="#contact" className="links hover:text-black">  Contact </Link></li>
-                            <li>  <Link tabIndex={0} href="#notYet" className="links hover:text-black">  Console </Link></li>
+                            <li onClick={click}>   <Link tabIndex={0} href="" className="links hover:text-black">  Console </Link></li>
                         
                         </ul>
                     </div>
