@@ -81,7 +81,7 @@ const ContactForm = () =>{
     return (
         <div data-aos="flip-left" data-aos-duration="3000" className="w-full h-full lg:pl-16 space-y-4">
             <h1 className="text-lst font-extrabold text-2xl tracking-wider font-serif">Let's Talk</h1>
-            <p className=" font-semibold leading-relaxed tracking-wide">Feel free to reach out to me for any inquiries, collaborations, or just to say hello. I'm always excited to connect with new people!</p>
+            <p className=" font-semibold leading-relaxed tracking-wide">Feel free to reach out to me for any inquiries, collaborations, or just to say hello. I&apos;m always excited to connect with new people!</p>
             
            <form >
             <div className="flex flex-col gap-5 items-center lg:items-start">
