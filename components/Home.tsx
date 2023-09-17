@@ -73,10 +73,10 @@ const Home = () =>{
                             <div className="absolute inset-0 bg-lst w-0 transition-all rounded-md duration-700 group-hover:w-full h-10"></div>
                             <LiaHackerrank className="border-2 w-10 h-10 p-1 rounded-md border-lst hover:border-white transition-all duration-1000 ease-in-out shadow-xl shadow-lst relative z-10" />
                         </Link>
-                        <Link target='_blank' href="https://www.facebook.com/mohamed.haddaoui.528/" className="group relative inline-block">
+                        {/* <Link target='_blank' href="https://www.facebook.com/mohamed.haddaoui.528/" className="group relative inline-block">
                             <div className="absolute inset-0 bg-lst w-0 transition-all rounded-md duration-700 group-hover:w-full h-10"></div>
                             <FaFacebookF className="border-2 w-10 h-10 p-1 rounded-md border-lst hover:border-white transition-all duration-1000 ease-in-out shadow-xl shadow-lst relative z-10" />
-                        </Link>
+                        </Link> */}
                         <Link target='_blank' href="https://twitter.com/mhaddaou" className="group relative inline-block">
                             <div className="absolute inset-0 bg-lst w-0 transition-all rounded-md duration-700 group-hover:w-full h-10"></div>
                             <GrTwitter className="border-2 w-10 h-10 p-1 rounded-md border-lst hover:border-white transition-all duration-1000 ease-in-out shadow-xl shadow-lst relative z-10" />
