@@ -123,7 +123,7 @@ const CardProjects = () =>{
                             <h1 className='text-center text-white text- font-bold  underline font-serif decoration-lst underline-offset-4 decoration-4'>Mern App</h1>
                             <p className='text-start text-white pl-2 italic      pt-3'>A React-Vite app with TS for account management. Express, MongoDB, and TypeScript power backend, enabling account creation, login, and user display.</p>   
                              <div className='  flex justify-center  pt-3'>
-                                <Link target='_black' href="https://github.com/mhaddaou/ft_transcendence" className='w-10 h-10  bg-slate-100 rounded-full flex items-center group justify-center hover:text-white hover:bg-lst transition-all duration-200 ease-in text-slate-800 text-xl '>
+                                <Link target='_black' href="https://mern-app-x2sp.vercel.app/" className='w-10 h-10  bg-slate-100 rounded-full flex items-center group justify-center hover:text-white hover:bg-lst transition-all duration-200 ease-in text-slate-800 text-xl '>
                                     <FaUpRightFromSquare className="   "/>
                                     </Link> 
                                </div>
