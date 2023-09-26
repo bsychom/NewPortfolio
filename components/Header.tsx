@@ -14,15 +14,15 @@ const Header = () =>{
                     </div>
                     <div >
                         <ul className={`hidden lg:flex items-center space-x-6 font-bold font-serif `}>
-                            <li data-aos="fade-up" data-aos-duration="500"> <Link href="#" className="links shadow-2xl">  Home </Link></li>
-                            <li data-aos="fade-up" data-aos-duration="1000">
+                            <li data-aos="fade-up" data-aos-duration="300"> <Link href="#" className="links shadow-2xl">  Home </Link></li>
+                            <li data-aos="fade-up" data-aos-duration="500">
         <Link href="#about" className="links shadow-2xl">About</Link>
         </li>
-                            <li data-aos="fade-up" data-aos-duration="1500"> <Link href="#services" className="links shadow-2xl">  Services </Link></li>
-                            <li data-aos="fade-up" data-aos-duration="2000"> <Link href="#skills" className="links shadow-2xl transition-transform">  Skills </Link></li>
-                            <li data-aos="fade-up" data-aos-duration="2500"> <Link href="#projects" className="links shadow-2xl">  Projects </Link></li>
-                            <li data-aos="fade-up" data-aos-duration="3000"> <Link href="#contact" className="links shadow-2xl">  Contact </Link></li>
-                            <li onClick={click} data-aos="fade-up" data-aos-duration="3000"> <Link href="" className="links transition-all duration-1000 shadow-2xl">  Console </Link></li>
+                            <li data-aos="fade-up" data-aos-duration="1000"> <Link href="#services" className="links shadow-2xl">  Services </Link></li>
+                            <li data-aos="fade-up" data-aos-duration="1500"> <Link href="#skills" className="links shadow-2xl transition-transform">  Skills </Link></li>
+                            <li data-aos="fade-up" data-aos-duration="2000"> <Link href="#projects" className="links shadow-2xl">  Projects </Link></li>
+                            <li data-aos="fade-up" data-aos-duration="2500"> <Link href="#contact" className="links shadow-2xl">  Contact </Link></li>
+                            <li data-aos="fade-up" data-aos-duration="3000"> <Link href="/console" className="links transition-all duration-1000 shadow-2xl">  Console </Link></li>
                         </ul>
                     </div>
                     <div className="dropdown lg:hidden pr-2  dropdown-left cursor-pointer">    
