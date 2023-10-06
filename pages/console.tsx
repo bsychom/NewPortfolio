@@ -74,7 +74,7 @@ const checkoutput = () =>{
                   <div className='absolute -top-[11px] right-6 bg-black text-slate-400 font-serif font-semibold text-sm '>( <span className='text-slate-200'>@</span> <span className=' text-cyan-400 '>mhaddaou </span> )</div>
                 </div>
                 <div className='absolute w-[80%] -bottom-[41px] md:-bottom-[50px] left-4 px-2  z-20 bg-black'>
-                  <input id='inp' onChange={handl} value={value} className='w-full outline-none text-sm md:text-base   bg-transparent text-white' type="text" />
+                  {/* <input placeholder="&nbsp;" id='inp' onChange={handl} value={value} className='w-full outline-none text-sm md:text-base   bg-transparent text-white' type="text" /> */}
                 </div>
               </div>
 

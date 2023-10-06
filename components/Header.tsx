@@ -22,7 +22,7 @@ const Header = () =>{
                             <li data-aos="fade-up" data-aos-duration="1500"> <Link href="#skills" className="links shadow-2xl transition-transform">  Skills </Link></li>
                             <li data-aos="fade-up" data-aos-duration="2000"> <Link href="#projects" className="links shadow-2xl">  Projects </Link></li>
                             <li data-aos="fade-up" data-aos-duration="2500"> <Link href="#contact" className="links shadow-2xl">  Contact </Link></li>
-                            <li data-aos="fade-up" data-aos-duration="3000"> <Link href="/console" className="links transition-all duration-1000 shadow-2xl">  Console </Link></li>
+                            <li onClick={click}  data-aos="fade-up" data-aos-duration="3000"> <Link href="" className="links transition-all duration-1000 shadow-2xl">  Console </Link></li>
                         </ul>
                     </div>
                     <div className="dropdown lg:hidden pr-2  dropdown-left cursor-pointer">    
